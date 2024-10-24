@@ -63,7 +63,7 @@ predictions = model.predict(XTest)
 pred_labels = (predictions > 0.5).astype("int32")
 
 # Save the model
-model.save('./My_model/LSTM_Model.h5')
+model.save('./LSTM_Model.h5')
 print("Model saved!")
 
 # Classifiaction_report 
